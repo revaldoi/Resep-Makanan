@@ -4,7 +4,7 @@ Aplikasi untuk memenuhi tugas UTS Prak Mobile Programming A
 
 ## Download
 
-Download aplikasi [disini](https://pip.pypa.io/en/stable/) untuk android
+Download aplikasi [disini](https://drive.google.com/file/d/1PVg5pAbkGLsRyMA4QOw9xGzkKuy5beKW/view?usp=sharing) untuk android
 
 ## Screenshot
 <p float="left">
