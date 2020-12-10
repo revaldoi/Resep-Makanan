@@ -1,0 +1,115 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent" android:paddingLeft= "10dp"
+    android:paddingRight = "10dp"
+    android:paddingTop = "10dp"
+    android:paddingBottom = "10dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context = ".MainActivity">
+
+    <ImageButton
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/makanan"/>
+
+    <TextView
+        android:text = "Resep Makanan" android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "25dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginBottom="50dp"/>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Name"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#CDCDCD" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editText2"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#CDCDCD"
+        android:hint="Password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kesempatan Mengulangi : "
+            android:id="@+id/textView2"
+            android:layout_below="@+id/editText2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView3"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_toEndOf="@+id/textview"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/textview" />
+    </LinearLayout>L
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_margin="20dp"
+            android:background="@drawable/button_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/textview"
+            android:layout_toStartOf="@+id/textview" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:background="@drawable/button_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button2"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/textview"
+            android:layout_toEndOf="@+id/textview" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Revaldo Pratama Putra - 1177050095"
+        android:textSize="10dp" />
+
+</LinearLayout>
